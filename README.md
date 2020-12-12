@@ -1,3 +1,12 @@
+## BoxProtector
+This is a Microbit simple Code to protect a box using a secret code.
+To make this project you will need:
+- A [https://www.amazon.fr/BBC-BBC2546862-Micro-Bits-Go/dp/B01G8X7VM2/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=micro+bit+starter&qid=1607799336&sr=8-2](microbit board)
+- Ideally a [https://www.amazon.fr/MakerHawk-BBC-Micro-dAdaptateur-Programmation/dp/B07PNL41PZ/ref=sr_1_17?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=microbit&qid=1607799221&sr=8-17](docking board) to facilitate connection of other components
+- A [https://www.amazon.fr/Universal-Switch-Keypad-Keyboard-Arduino/dp/B018CGKAYY/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=arduino+keyboard&qid=1607799422&sr=8-6](4X4 Keyboard)
+- A [https://www.amazon.fr/Kinshops-Contr%C3%B4le-A%C3%A9romod%C3%A9lisme-Direction-H%C3%A9licopt%C3%A8re/dp/B0849X79V6/ref=sr_1_11?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=servo+moteur+3.7g&qid=1607799638&sr=8-11](3.7g servomotor). Please notice that if you want to use a stronger servo, you will need to have an extra board because the microbit can't deliver more than 90mA to the servo.
+
+
 
 > Ouvrir cette page à [https://parisneo.github.io/boxprotector/](https://parisneo.github.io/boxprotector/)
 
