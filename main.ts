@@ -75,6 +75,7 @@ basic.forever(function () {
             Code = "" + Code + appui
         } else if (appui == "#") {
             if (Code == AccessCode) {
+                pins.servoWritePin(AnalogPin.P1, 180)
                 basic.showLeds(`
                     # # # # #
                     # . . . #
@@ -82,7 +83,6 @@ basic.forever(function () {
                     # . . . #
                     # # # # #
                     `)
-                pins.servoWritePin(AnalogPin.P1, 180)
             }
         } else {
         	
